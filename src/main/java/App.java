@@ -1,4 +1,3 @@
-
 import com.qualizeal.javaapp05.operation.EvenOddNumber;
 
 public class App {
