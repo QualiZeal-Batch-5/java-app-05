@@ -12,20 +12,22 @@ public class EvenOddNumber {
     }
 	
 	
-	public String verifyIfNumberIsEvenOrOdd(int number) {
+	public String verifyIfNumberIsEvenOrOdd(int num) {
 		
-        if (number < 0) {
+        if (num < 0) {
             return "-1"; 
         }
-        if (number == 0) {
+        else if (num == 0) {
             return "-2"; 
         }
-        
-        if (number % 2 == 0) {
-            return "Even Number"; 
-        } 
         else {
-            return "Odd Number"; 
+            if (num % 2 == 0) {
+                return "Even Number"; 
+            } 
+            else {
+                return "Odd Number"; 
+            }
         }
+        
     }
 }
