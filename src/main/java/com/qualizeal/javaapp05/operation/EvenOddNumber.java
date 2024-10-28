@@ -3,12 +3,12 @@ package com.qualizeal.javaapp05.operation;
 public class EvenOddNumber {
 	
 	public String defineEvenNumber() {
-        return "An even number is an integer that is exactly divisible by 2.";
+        return "A number is said to an  even number if it is exactly divisible by 2.";
 	}
 	
 	
 	public String defineOddNumber() {
-        return "An odd number is an integer that is not exactly divisible by 2.";
+        return "A number is said to an odd number if it is not exactly divisible by 2.";
     }
 	
 	
