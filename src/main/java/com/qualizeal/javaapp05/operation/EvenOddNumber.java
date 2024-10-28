@@ -1,5 +1,5 @@
 package com.qualizeal.javaapp05.operation;
-
+ 
 public class EvenOddNumber {
 	
 	public String defineEvenNumber() {
@@ -14,18 +14,18 @@ public class EvenOddNumber {
 	
 	public String verifyIfNumberIsEvenOrOdd(int number) {
 		
-        if (number < 0) {
-            return "-1"; 
-        }
         if (number == 0) {
-            return "-2"; 
+            return "-2";
+        }
+        if (number < 0) {
+            return "-1";
         }
         
         if (number % 2 == 0) {
-            return "Even Number"; 
-        } 
+            return "Even Number";
+        }
         else {
-            return "Odd Number"; 
+            return "Odd Number";
         }
     }
 }
