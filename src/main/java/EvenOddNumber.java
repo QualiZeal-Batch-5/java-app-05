@@ -13,6 +13,7 @@ package com.qualizeal.javaapp05.operation;
 		}else if(num1 % 2 != 0){
 			defineOddNumber();
 		}
+		
 		return result;
 	}
 	
