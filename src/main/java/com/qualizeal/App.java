@@ -1,7 +1,13 @@
-package com.qualizeal;
+package com.qualizeal.javaapp05;
+import com.qualizeal.javaapp05.operation.EvenOddNumber;
 
 public class App {
-	public static void main(String[] args) {
-		
-	}
+       public static void main(String[] args) {
+       EvenOddNumber evenOddNumber = new EvenOddNumber();
+       String result1 =  evenOddNumber.verifyIfNumberIsEvenOrOdd(200);
+       
+       System.out.println(result1);
+        }
+       
+	
 }
