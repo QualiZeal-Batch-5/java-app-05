@@ -7,10 +7,11 @@ public class App {
 		EvenOddNumber evenOddNumber  = new EvenOddNumber();
 		evenOddNumber.defineEvenNumber();
 		evenOddNumber.defineOddNumber();
-		evenOddNumber.verifyIfNumberIsEvenOrOdd(6);
+		evenOddNumber.verifyIfNumberIsEvenOrOdd(45);
 		
-		int input =  6;
+		int input =  45;
 		String result = evenOddNumber.verifyIfNumberIsEvenOrOdd(input);
+		
 		System.out.println(result);
 	}		
 }
